@@ -23,6 +23,7 @@ const VideoPlayer = () => {
         className={cls.openButton}
         color='primary'
         variant='outlined'
+        size='large'
         onClick={() => send({ type: "OPEN" })}
       >
         <PlayCircleOutlined className={cls.openButton__icon} />
